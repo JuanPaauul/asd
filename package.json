@@ -1,0 +1,22 @@
+{
+  "name": "parcel-jest-base",
+  "version": "1.0.0",
+  "description": "```\r git clone https://github.com/israelantezana/template-jest-babel.git\r cd template-jest-babel",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest --watch --env='jsdom' --coverage",
+    "test-once": "jest --env='jsdom' --coverage"
+  },
+  "author": "Grupo 3",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "parcel": "^2.0.1",
+    "parcel-bundler": "^1.12.5"
+  }
+}
